@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDepartment"
+    android:background="@color/gray">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/Admin_main_toolbar">
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/back"
+            android:id="@+id/backImage"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_40ssp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Admin"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:id="@+id/title_login"></TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+    <Spinner
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Admin_main_toolbar"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:autofillHints="department"
+        android:id="@+id/levelSpinner"/>
+    <Spinner
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/levelSpinner"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:id="@+id/departmentSpinner"/>
+
+    <Button
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/colorred"
+        android:background="@color/green"
+        android:text="Add"
+        android:textStyle="bold"
+        android:layout_below="@id/departmentSpinner"
+        android:id="@+id/add_department"></Button>
+
+</RelativeLayout>

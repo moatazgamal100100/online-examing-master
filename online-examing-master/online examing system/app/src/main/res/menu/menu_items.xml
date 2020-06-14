@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_registration_list"
+            android:icon="@drawable/registration_list"
+            android:title="Registration Request"/>
+        <item android:id="@+id/professors_list_image"
+            android:icon="@drawable/professors_list_image"
+            android:title="List Of Professors"/>
+        <item android:id="@+id/addprof"
+            android:icon="@drawable/ic_add_prof"
+            android:title="Add professor"/>
+
+    </group>
+
+</menu>

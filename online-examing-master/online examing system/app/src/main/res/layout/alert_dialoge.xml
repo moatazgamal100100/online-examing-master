@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/red"
+        android:text="Add Chapter"
+        android:layout_marginLeft="@dimen/_190sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/addChapterTextView"/>
+    
+    <EditText
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:hint="enter the chapter"
+        android:textColorHint="@color/red"
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_below="@id/addChapterTextView"
+        android:id="@+id/chapterInputEditText"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_20ssp"
+        android:text="ok"
+        android:background="@color/green"
+        android:layout_below="@id/chapterInputEditText"
+        android:id="@+id/okButton"/>
+
+        <Button
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="cancel"
+            android:textSize="@dimen/_20ssp"
+            android:layout_below="@id/chapterInputEditText"
+            android:layout_toRightOf="@id/okButton"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@color/green"
+            android:id="@+id/cancelButton"/>
+
+</RelativeLayout>

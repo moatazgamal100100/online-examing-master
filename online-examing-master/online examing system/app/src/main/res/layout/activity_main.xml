@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:background="@drawable/button_shape"
+        android:text="LV 1"
+        android:textColor="@color/purpel"
+        android:textSize="@dimen/_40ssp"
+        android:id="@+id/level1_button"/>
+
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:background="@drawable/button_shape"
+        android:text="LV 2"
+        android:textColor="@color/purpel"
+        android:textSize="@dimen/_40ssp"
+        android:id="@+id/level2_button"/>
+
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/button_shape"
+        android:layout_below="@id/level1_button"
+        android:text="LV 3"
+        android:textSize="@dimen/_40ssp"
+        android:textColor="@color/purpel"
+        android:id="@+id/level3_button"/>
+
+    <Button
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_below="@id/level2_button"
+        android:background="@drawable/button_shape"
+        android:text="LV 4"
+        android:textColor="@color/purpel"
+        android:textSize="@dimen/_40ssp"
+        android:id="@+id/level4_button"/>
+
+
+</RelativeLayout>

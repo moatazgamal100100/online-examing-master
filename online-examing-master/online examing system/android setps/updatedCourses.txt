@@ -1,0 +1,28 @@
+all about firebase 
+https://eg.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352
+https://eg.udacity.com/course/firebase-analytics-android--ud354
+https://www.youtube.com/user/akshayejh/playlists
+https://www.youtube.com/watch?v=fQTIxkC--QI&index=1&list=PLCYLaZQuthuZEXktzINdtLwX2oUGJFhay
+(ÔÑÍ ÈÇáÚÑÈí)
+
+
+navigation drawer
+https://www.youtube.com/watch?v=fGcMLu1GJEc
+
+aws rh (very useful channel)
+https://www.youtube.com/channel/UCoQp_Duwqh0JWEZrg4DT2Ug/videos
+
+
+ordering app and android uber clone
+https://www.youtube.com/user/eddydn71/playlists
+https://www.youtube.com/watch?v=Ad41Bh704ms  (order app)
+https://www.youtube.com/watch?v=DvFPQBHfGzs (uber)
+
+room database 
+https://www.youtube.com/watch?v=jtCcD2NEtCo
+
+Remember (Retrofit,Volley,Glide,Picasso,Room,Firebase) are very important
+
+maps and location 
+https://eg.udacity.com/course/google-location-services-on-android--ud876-1
+https://eg.udacity.com/course/add-google-maps-to-your-android-app--ud876-4

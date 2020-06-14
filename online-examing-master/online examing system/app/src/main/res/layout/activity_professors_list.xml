@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessorsList"
+    android:background="@color/gray">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/darkblue">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/back"
+            android:id="@+id/backImage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Admin"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:layout_marginBottom="@dimen/_5ssp"
+            android:id="@+id/title_login"></TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/Professors_name_list"/>
+</RelativeLayout>

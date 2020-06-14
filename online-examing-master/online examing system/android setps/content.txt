@@ -1,0 +1,44 @@
+Xml 
+1. difference between View and ViewGroup
+2.LinearLayout .. important attributes(weight,orientation,gravity,layout-gravity)
+3.TextView, Button, Switch (trackTint,thumbTint,checked) , CheckBox (buttonTint,checked), EditText (backgroundTint,hint,inputType), ImageView (src,scaleType)
+4.RelativeLayout (alignParentLeft,alignParentRight,alignParentTop,alignParentBottom,
+centerInParent,centerHorizontal,centerVertical,alignLeft,alignRight,alignTop,alignBottom,
+toRightOf,toLeftOf,below,above)
+5.FrameLayout, TableLayout, ScrollView
+6.Toast, Custom Toast (custom layout ,using LayoutInflater to link toast with its custom layout)
+7.Log.v(),Log.e(),Log.d(),Log.i(),Log.w(),Log.wtf()
+Log.i("MainActivity","Message I want to log");
+8.Understandind Activity lifecycle (onCreate(),onStart(),onResume(),onPause(),onStop(),
+onDestroy())
+9.Understanding difference between Implicit Intents and Explicit Intents 
+10.Using Implicit Intents to open browser,open maps,open camera,open dialer,send email,
+show contacts
+11.Using Explicit Intents to go from activity to another activity 
+12.Transfer data between activities using intent.putExtra()
+13.Implementing simple ListView, GridView and Spinner 
+put ListView in Activity layout,make a custom row to define row view ,make simple adapter object and connect adapter with ListView
+14.Splash Screen
+15.Custom ListView (make a new class that extends ArrayAdapter and override getView method)
+16.Menus (Popup Menu,Context Menu,Options Menu) 
+create menu resource directory and then menu resource file and make menu items
+17.ToolBar 
+18.ScrollView
+19.Fragments (part of app UI) 
+create class that extends Fragment and make fragment layout and override onCreateView method to connect fragment with its layout
+20.Connect Fragment with its activity in xml by using <fragment> or in Activity class by using FragmentManager and FragmentTransaction(add,replace,remove)
+21.Use Fragments to make tabs ,using TablLayout and ViewPager 
+22.Using SharedPreferences to save primitive data (user name and password or user settings) 
+23.Difference between getSharedPreferences() method that creates a file accessible by all app activities , and getPreferences() method that creates file accessible by only one activity 
+24.SQLite database (create,read,update,delete) using SQLiteOpenHelper
+25.Services for background operations (StartedService ,BoundService)
+26.Make local notifications using NotificationCompat.Builder 
+(Expandable notification,Notification Group,Notification that opens another activity)
+27.WebService using HttpUrlConnection class and AsynTask 
+28.JSON parsing using JSONArray and JSONObject 
+29.RecyclerView (enhanced version of ListView and GridView) and use ViewHolder pattern for views recycling 
+30.WebView (a simple view to show a website)
+31.DatePickerDialog and TimePickerDialog
+32.Normal permissions and dangerous permissions 
+33.Create a signed apk 
+
